@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Karla&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.8;
+    word-spacing: 1.8px;
+}
+
+body {
+    /* font-family: 'Karla', sans-serif; */
+    font-family: 'DynaPuff', cursive;
+    background-color: #f1faee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    box-shadow: 4px 4px 10px 2px rgb(155, 121, 121);
+    border-radius: 6px;
+    width: 370px;
+    overflow: hidden;
+}
+
+.title {
+    margin-top: 19px; 
+}
+
+.small {
+    display: inline-block;
+    margin: 6px 0 20px;
+    opacity: 0.9;
+}
+
+.header {
+    background-color: #0077b6;
+    padding: 30px 20px;
+    color: #fff;
+}
+.header input {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: #0096c7;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+    box-shadow: 3px 4px 13px #1a4d688c;
+  }
+  
+  input::placeholder {
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  .header input:focus {
+    outline: none;
+  }
+
+  .user-list {
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    border-radius: 3px;
+    overflow-y:auto;
+  }
+
+  .user-list li {
+    display: flex;
+    padding: 15px;
+  }
+
+  .user-list img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+
+  .user-info {
+    margin-left: 13px;
+  }
+ 
+  .user-list .user-info h4 {
+    font-size: 18px;
+    margin: 0 0 17px;
+  }
+  .user-list .user-info p {
+    font-size: 15px;
+  }
+
+  .user-list li:not(:last-of-type) {
+    border-bottom: 1px solid rgb(239, 231, 231);
+    box-shadow: 0px 1px 0 0 rgb(244, 235, 235);
+  }
+
+  .user-list li.hide {
+    display: none;
+  }
+
+  .seeMore {
+    margin-left: 23px;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+
